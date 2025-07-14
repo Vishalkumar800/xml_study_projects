@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.rach.xmlstudy3project.databinding.ActivityMainBinding
+import com.rach.xmlstudy3project.dialogs.DialogStudyActivity
 import com.rach.xmlstudy3project.studyFragments.StudyFragActivity
 
 class MainActivity : AppCompatActivity() {
@@ -43,6 +44,18 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this , StudyFragActivity::class.java)
             startActivity(intent)
         }
+
+        binding.dialogStudy.setOnClickListener {
+            val intent =  Intent(this , DialogStudyActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.spinnerStudy.setOnClickListener {
+            val intent = Intent(this , SpinnerActivity::class.java)
+            startActivity(intent)
+        }
+
+
 
     }
     /**

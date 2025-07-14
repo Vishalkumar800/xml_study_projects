@@ -20,7 +20,7 @@
         android:id="@+id/fragmentStudy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fragment Study"
+        android:text="@string/fragment_study"
         android:layout_marginTop="20dp"/>
 
     <Button
@@ -36,6 +36,20 @@
         android:layout_height="wrap_content"
         android:text="@string/recyclerview"
         android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/dialogStudy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_study"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/spinnerStudy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spinner Study"/>
+
 
 
 </LinearLayout>

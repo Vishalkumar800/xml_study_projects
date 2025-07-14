@@ -54,4 +54,22 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="second_fragment">Second Fragment</string>
+    <string name="fragment_study">Fragment Study</string>
+    <string name="dialog_study">Dialog Study</string>
+    <string name="add_contact_dialog">Add Contact Dialog</string>
+
+    <string-array name="month">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
 </resources>
